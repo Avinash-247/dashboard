@@ -98,7 +98,7 @@ export default function Dashboard() {
         </Sheet>
         <div className="flex items-center gap-2">
           <PieChart className="h-6 w-6" />
-          <span className="text-lg font-semibold">Acme Analytics</span>
+          <span className="text-lg font-semibold">Smart HR Management</span>
         </div>
         <div className="relative ml-auto flex-1 md:grow-0 md:w-80">
           <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
@@ -157,22 +157,21 @@ export default function Dashboard() {
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
               <Card>
                 <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                  <CardTitle className="text-sm font-medium">Total Revenue</CardTitle>
-                  <DollarSign className="h-4 w-4 text-muted-foreground" />
+                  <CardTitle className="text-sm font-medium">Total Candidates</CardTitle>
+                  {/* <DollarSign className="h-4 w-4 text-muted-foreground" /> */}
                 </CardHeader>
                 <CardContent>
-                  <div className="text-2xl font-bold">$45,231.89</div>
-                  <p className="text-xs text-muted-foreground mt-1">+20.1% from last month</p>
+                  <div className="text-2xl font-bold">289</div>
                 </CardContent>
               </Card>
               <Card>
                 <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                  <CardTitle className="text-sm font-medium">New Customers</CardTitle>
+                  <CardTitle className="text-sm font-medium">Total Employees</CardTitle>
                   <Users className="h-4 w-4 text-muted-foreground" />
                 </CardHeader>
                 <CardContent>
-                  <div className="text-2xl font-bold">+2,350</div>
-                  <p className="text-xs text-muted-foreground mt-1">+18.2% from last month</p>
+                  <div className="text-2xl font-bold">+95</div>
+                  <p className="text-xs text-muted-foreground mt-1">+5% inc from last month</p>
                 </CardContent>
               </Card>
               <Card>
